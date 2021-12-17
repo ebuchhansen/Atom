@@ -1,0 +1,52 @@
+body {
+height : 100%;
+margin : 0;
+text-align : center;
+width : 100%;
+font-family : 'Lato', sans-serif;
+background-color : white;
+background-position : center bottom;
+background-size : 100% 100%;
+}
+
+h2 {
+font-size : 56px;
+}
+
+p {
+font-size : 2rem;
+margin : 20px;
+}
+
+.forsidebillede {
+padding : 250px 0;
+margin : 30px;
+font-family : 'Trebuchet MS', Helvetica, sans-serif;
+background-image : url("moutains.jpg");
+background-size : cover;
+color : #ffffff;
+min-width : 600px;
+}
+
+.forsidebillede a {
+color : #00FFAA;
+font-size : 1.5em;
+text-decoration : none;
+}
+
+#footer {
+font-size : 0.75em;
+}
+
+.start-btn a {
+cursor : pointer;
+margin-right : 30px;
+padding : 8px 18px;
+border : #204156 solid 1px;
+position : relative;
+}
+
+.start-btn a:active {
+position : relative;
+bottom : 2px;
+}

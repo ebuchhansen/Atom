@@ -1,0 +1,93 @@
+body {
+	height: 100%;
+	margin: 0;
+	text-align: center;
+	width: 100%;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  font-weight: 300;
+  line-height: 1.5;
+  font-family: 'Lato', sans-serif;
+  background-color: white;
+}
+
+h2 {
+	font-size: 56px;
+}
+
+p {
+  font-size: 1.5rem;
+  background-color: white;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.gallery-item {
+  margin: 20px;
+  border: 5px solid white;
+}
+
+.gallery-item .poster {
+  width: 400px;
+  height: 600px;
+  object-fit: cover;
+}
+.gallery-item .animation {
+  width: 400px;
+  height: 300px;
+  object-fit: cover;
+}
+
+.gallery-item .websitedesign {
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
+}
+
+.gallery-item .pentool {
+  width: 400px;
+  height: 450px;
+  object-fit: cover;
+}
+
+.gallery-item .kvium {
+  width: 400px;
+  height: 800px;
+  object-fit: cover;
+}
+
+.gallery-item .bunny {
+  width: 400px;
+  height: 300px;
+  object-fit: cover;
+}
+
+nav {
+  background-color: white;
+}
+
+nav li {
+  margin: 0;
+  padding: 0 10px;
+  display: inline;
+}
+
+nav a {
+  height: 60px;
+  line-height: 60px;
+  color: black;
+  text-decoration: none;
+}
+
+#footer {
+  font-size: 0.75em;
+	margin-bottom: 20px;
+}
